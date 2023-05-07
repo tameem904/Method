@@ -9,14 +9,15 @@ public class Q03 {
 
         for(int i=2;i<=num;i++){
             if(num%i==0){
-                count++;}
+                count++;
 
+            }
             if(count>1){
                 isPrime=false;}}
-                 return isPrime; }
+               return isPrime; }
 
        public static void main(String[] args) {
-        int num=4;
+        int num=9;
         Q03 obj=new Q03();
         boolean result= obj.isPrime(num);
         System.out.println(result);
